@@ -1,0 +1,57 @@
+nav{
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(circle at 20% 36%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 20% 36%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-radial-gradient(circle at 20% 36%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* ie 10+ */
+        background:-ms-radial-gradient(circle at 20% 36%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* global 92%+ browsers support */
+        background:radial-gradient(circle at 20% 36%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2rem 1rem;
+}
+.nav-logo-container{
+    font-family: var(--font);
+    color: white;
+}
+.nav-links-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: var(--font);
+}
+.nav-links-container ul li{
+    margin-left: 3rem;
+    list-style: none;
+    cursor:pointer;
+    display: inline-block;
+}
+.nav-buttons-container{
+    display: flex;
+    align-items: center;
+}
+.nav-buttons-container p{
+    color: white;
+    font-family: var(--font);
+    cursor: pointer;
+}
+.nav-buttons-container button{
+    margin-left: 1.4rem;
+    color: white;
+    font-family: var(--font);
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    height: 58px;
+    background: #FF4820;
+    border-radius: 5px;
+}

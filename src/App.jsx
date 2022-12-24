@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import Hero from "./components/layouts/Hero";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <Fragment>
+      <Hero />
+    </Fragment>
+  );
+};
 
-export default App
+export default App;
